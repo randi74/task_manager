@@ -4,8 +4,12 @@
     "target": "es2023", 
     "module": "NodeNext", 
     "lib": ["ES2022"], 
-    // "rootDir": "./src", 
+    "rootDir": "./src", 
     "outDir": "./dist", 
+    "baseUrl": ".",
+    "paths": {
+      "@prisma/client": ["node_modules/@prisma/client"]
+    },
     "esModuleInterop": true, 
     "types": ["node"],
     "forceConsistentCasingInFileNames": true, 
