@@ -175,6 +175,15 @@ Perbaikan nantinya adalah dengan menyimpan informasi penting seperti nama task k
 
 ---
 
+# Modifikasi Audit Log
+Audit log tidak dapat di modifikasi karena tidak terdapat akses terhadap database seperti API untuk melalukan modifikasi (CRUD).
+
+# Resiko Banyak User
+Paling beresiko Ketika digunakan oleh user adalah dibagian penyimpanan data audit di dalam database, karena itu bisa menyebabkan overload beban pada database sehingga dapat menurunkan performa aplikasi secara drastis bahkan berisiko menyebabkan database mengalami crash.
+
+# Refactor Sistem
+Saya akan melakukan refactor di sisi UI karena masih menggunakan AI dalam pembuatannya.
+
 # Penggunaan AI
 
 AI digunakan pada beberapa bagian pengembangan proyek ini, yaitu:
