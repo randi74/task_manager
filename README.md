@@ -25,9 +25,9 @@ git clone <repository-url>
 
 Pastikan salah satu web server/database berikut sudah berjalan:
 
-XAMPP
-Laragon
-atau web server lainnya
+* XAMPP
+* Laragon
+* atau web server lainnya
 
 Kemudian buat database baru dengan nama:
 
@@ -77,10 +77,10 @@ DATABASE_URL="mysql://username:password@localhost:3306/task_manager"
 
 Sesuaikan:
 
-username
-password
-port database
-nama database
+* username
+* password
+* port database
+* nama database
 
 ---
 
@@ -140,15 +140,15 @@ React (Frontend) -> React Context (User saat ini) -> Express API -> Prisma ORM -
 
 ### Frontend
 
-Menampilkan UI.
-Mengelola state.
-Mengelola user saat ini menggunakan React Context.
-Mengirim request ke backend.
+*Menampilkan UI.
+* Mengelola state.
+* Mengelola user saat ini menggunakan React Context.
+* Mengirim request ke backend.
 
 ### Backend
 
-Menyimpan task.
-Mencatat seluruh perubahan ke Audit Log secara otomatis.
+* Menyimpan task.
+* Mencatat seluruh perubahan ke Audit Log secara otomatis.
 
 ---
 
@@ -158,11 +158,11 @@ Setiap perubahan status task akan dicatat secara otomatis.
 
 Informasi yang disimpan meliputi:
 
-User
-Task
-Status sebelumnya
-Status baru
-Waktu perubahan
+* User
+* Task
+* Status sebelumnya
+* Status baru
+* Waktu perubahan
 
 ---
 
@@ -179,5 +179,5 @@ Perbaikan nantinya adalah dengan menyimpan informasi penting seperti nama task k
 
 AI digunakan pada beberapa bagian pengembangan proyek ini, yaitu:
 
-Membantu pembuatan dan penyempurnaan UI karena UI tidak menjadi aspek penilaian utama.
-Membantu proses konfigurasi Prisma ORM karea terdapat error pada konfigurasi Prisma ORM.
+* Membantu pembuatan dan penyempurnaan UI karena UI tidak menjadi aspek penilaian utama.
+* Membantu proses konfigurasi Prisma ORM karea terdapat error pada konfigurasi Prisma ORM.
